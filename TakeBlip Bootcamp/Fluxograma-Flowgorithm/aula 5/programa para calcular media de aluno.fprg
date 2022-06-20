@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Nilson"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-09 05:55:10 "/>
+        <attribute name="created" value="Tmlsc29uO1ZJVE9SQ09NUFVURVI7MjAyMi0wMi0wOTsiMDU6MzI6MDcgIjsyODQz"/>
+        <attribute name="edited" value="Tmlsc29uO1ZJVE9SQ09NUFVURVI7MjAyMi0wMi0wOTsiMDU6NTU6MTAgIjsyOzI5NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nomeAluno" type="String" array="False" size=""/>
+            <declare name="notaAv1, notaAv2, notaAv3, notaAv4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe seu nome completo: &quot;" newline="True"/>
+            <input variable="nomeAluno"/>
+            <output expression="&quot;Informe a nota da sua primeira avalia&#231;&#227;o: &quot;" newline="True"/>
+            <input variable="notaAv1"/>
+            <output expression="&quot;Informe a nota da sua segunda avalia&#231;&#227;o: &quot;" newline="True"/>
+            <input variable="notaAv2"/>
+            <output expression="&quot;Informe a nota da sua terceira avalia&#231;&#227;o: &quot;" newline="True"/>
+            <input variable="notaAv3"/>
+            <output expression="&quot;Informe a nota da sua quarta avalia&#231;&#227;o: &quot;" newline="True"/>
+            <input variable="notaAv4"/>
+            <assign variable="media" expression="(notaAv1+notaAv2+notaAv3+notaAv4)/4"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;Parab&#233;ns &quot;&amp;nomeAluno&amp;&quot;, voc&#234; tem a m&#233;dia de &quot;&amp;media&amp;&quot; e voc&#234; foi aprovado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Prezado &quot;&amp;nomeAluno&amp;&quot;, Infelizmente voc&#234; foi reprovado, pois sua m&#233;dia foi &quot;&amp;media&amp;&quot; e a nota m&#237;nima &#233; 7&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

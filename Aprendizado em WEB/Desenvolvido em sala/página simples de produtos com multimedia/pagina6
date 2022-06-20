@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Cofrinho em forma de bumbum</title>
+</head>
+
+<!-- CORPO DA PÁGINA -->
+
+<body>
+
+<br>
+
+<h1>Cofrinho Bumbum</h1>
+
+<!-- IMAGEM -->
+
+<img src="cofrinho.jpg" alt="Cofrinho Bumbum" width=600>
+<img src="cofrinho2.jpg" alt="Cofrinho e Embalagem" width=600>
+
+<br><br>
+
+<!-- VÍDEO -->
+
+<h2>Este produto não possui avaliação</h2>
+
+<br><br>
+
+<!-- RODAPÉ -->
+
+<footer>
+
+<nav>
+<a href="file:///C:/Users/Nilson/Documents/VITOR/EST%C3%81CIO-EU/1%C2%BA%20semestre%2024-08-20/desenvolvimento%20web/aula%203/tabela.html">Voltar</a>
+</nav>
+
+</footer>
+
+</body>
+</html>

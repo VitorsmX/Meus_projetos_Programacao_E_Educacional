@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Fale conosco</title>
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <style>
+
+body{
+    margin: 0px;
+}
+#menu ul{ 
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+    background-color: #333;
+    border: solid #333;
+}
+#menu li {
+    float: left;
+}
+#menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+#menu li a:hover:not(.active){
+    background-color: #111;
+    /*color: #6D6D6D;
+    border-bottom:3px solid white;*/
+}
+.active{
+    background-color: #4c3282; 
+}
+#menu ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#background {
+    background: #0f1118;
+}
+
+#display-flex {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+a:link, a:visited, a:active {
+text-decoration:none;
+color: #accae6;
+}
+a:hover {
+    color:#d8cdec;
+    font-size: 105%;
+}
+
+#email {
+    background: #5a66ce;
+    width: 330px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 10px 60px 20px 10px;
+    position: relative;
+    top: 45px;
+    left: 70px;
+}
+
+#aqui {
+    color: #d8cdec;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+
+}
+
+#end-email {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+
+#telefone {
+    background: #5e66ce;
+    width: 330px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 10px 60px 20px 10px;
+    position: relative;
+    top: 45px;
+    left: 70px;
+}
+
+#cont {
+    color: #d8cdec;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+#atendimento {
+    color: #d8cdec;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    position: relative;
+    top: 40px;
+}
+
+#zap {
+    color: #d8cdec;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#endereço {
+    background: #5e66ce;
+    width: 330px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 10px 60px 20px 10px;
+    position: relative;
+    top: 45px;
+    left: 70px;
+}
+
+#saiba {
+    color: #d8cdec;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+#endereco-fisico {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px;
+    position: relative;
+    top: 25px;
+}
+
+.main-header {
+background-color: #4c3282;
+position: top;
+margin: -40px -10px 0px -10px;
+width: 100%;
+height: 275px;
+}
+
+.faleconosco {
+    color: #d8cdec;
+    font-size: 50px;
+    line-height: 275px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<header class="main-header">
+   <h1 class="faleconosco">Fale Conosco!</h1>
+</header>
+<body id="background">
+    <div id="display-flex">
+    <section id="email">
+        <h2 id="aqui">
+        Aqui está nosso e-mail
+        </h2>
+        <p id="end-email">
+            <a href="#">KamuiCamisetas@loja.com</a>   
+        </p>
+    </section>
+<br>
+        <section id="telefone">
+          <h2 id="cont">
+              Aqui estão nossos contatos
+          </h2>
+          <p id="atendimento">        
+            Ligue para nosso atendimento a qualquer hora <a href="#">0800 666 2020</a>
+          </p> 
+<p id="zap">
+    manda um zap <a href="#">+55 91 6666 2091</a>
+</p>
+        </section>
+        <br>
+        <section id="endereço">
+            <h2 id="saiba">
+            Saiba onde nos achar
+            </h2>
+            <p id="endereco-fisico">
+                <a href="#">Rua Engenheiro Carlos Alves, 788 - Capanema, PA - 68701-340</a>   
+            </p>
+        </section>
+    </div> 
+    <div id="menu">
+        <ul>
+            <li><a href ="home.html"> Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a class="active" href="faleConosco.html">Fale Conosco</a></li>
+            <li><a href="empresa.html">Sobre a Empresa</a></li>
+            <li><a href="cadastrar.html">Cadastrar Produtos</a></li>
+           <!-- <li><a href="login.html">Login</a></li>-->
+        </ul>
+    </div>
+</body>
+</html>

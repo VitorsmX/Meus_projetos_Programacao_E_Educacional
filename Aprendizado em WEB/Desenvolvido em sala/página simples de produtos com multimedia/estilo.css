@@ -1,0 +1,45 @@
+
+.titulo1 {
+	color:#ff0000;
+	background:#ffd700;
+	margin:3px 0px 3px 0px; /* margem, topo, direita, inferior, esquerda */
+	padding:2px 2px 2px 2px;
+	border-style: solid;
+	font-family:sans-serif;
+	font-weight:bold;
+
+}
+.tek {
+	color:#f5f5f5;
+	background:#2f4f4f;
+	font-family:cursive;
+}
+.grav {
+	color:#191970;
+	background:#add86e;
+	font-family:cursive;
+}
+.cami {
+	color:#ffc0cb;
+	background:#800000;
+	font-family:cursive;
+}
+.disp {
+	color:#fff5ee;
+	background:#b22222;
+	font-family:cursive;
+}
+.cof {
+	color:#f5fffa;
+	background:#ffa500;
+	font-family:cursive;
+}
+.rodape {
+	color:white;
+	background:black;
+	font-family:sans-serif;
+}
+#video {
+	color:white;
+	background:gray;
+}

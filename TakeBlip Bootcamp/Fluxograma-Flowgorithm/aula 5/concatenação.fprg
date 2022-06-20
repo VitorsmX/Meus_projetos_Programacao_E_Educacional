@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Nilson"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-09 05:31:35 "/>
+        <attribute name="created" value="Tmlsc29uO1ZJVE9SQ09NUFVURVI7MjAyMi0wMi0wOTsiMDQ6NTg6MDIgIjsyODQ1"/>
+        <attribute name="edited" value="Tmlsc29uO1ZJVE9SQ09NUFVURVI7MjAyMi0wMi0wOTsiMDU6MzE6MzUgIjsxOzI5NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o seu nome: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;qual &#233; o seu sobrenome? &quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;qual a sua idade? &quot;" newline="True"/>
+            <input variable="idade"/>
+            <if expression="idade=1">
+                <then>
+                    <output expression="&quot;O seu nome completo &#233; &quot;&amp;nome&amp;&quot; &quot;&amp;sobrenome&amp;&quot; e voc&#234; tem apenas &quot;&amp;idade&amp;&quot; ano de idade, que coisa n&#227;o.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O seu nome completo &#233; &quot;&amp;nome&amp;&quot; &quot;&amp;sobrenome&amp;&quot; e voc&#234; tem &quot;&amp;idade&amp;&quot; anos.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

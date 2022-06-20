@@ -1,0 +1,177 @@
+<html>
+  <head>
+    <title>vitrine de camisetas infantis</title>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <style>
+*{
+font-family: 'Lato', sans-serif;
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+      #produtos{
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 2%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      #carrinho{
+      max-width: 900px;
+        margin: 0 auto;
+        padding: 0 2%;
+        display: block;
+      }
+
+      .produto-single {
+        width: 32%;
+        margin-right: 1%;
+        margin-top:20px;
+        margin-bottom:20px;
+      }
+
+      .produto-single img{
+          max-width: 100%;
+      }
+
+      .produto-single p{
+        color: #2F4F4F;
+        text-align: center;
+        font-size: 16px;
+        padding:10px;
+        background-color:#B0C4DE;
+      }
+
+      produto-single, a{
+        text-decoration: none;
+        color:white;
+        background-color: #5fb382;
+        text-align: center;
+        display: block;
+        padding: 0px 0;
+        font-size: 18px;
+      }
+
+      h2{
+        background-color: #4c3282;
+        padding:18px 0;
+        text-align:center;
+        color: white;
+      }
+      body{
+          background: #0f1118;
+      }
+
+.info-single-checkout{
+  border-bottom:2px dotted;
+  padding:10px 0;
+}
+
+      @media screen and (max-width: 768px){
+        .produto-single{
+          width: 100%;
+          margin-right: 0;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <h2>Conheça nossas camisetas</h2>
+    <div id="produtos"></div>
+    <!--produtos-->
+
+    <h2>Aqui aparecerão seus produtos!</h2>
+    <div id="carrinho"></div>
+    <!--carrinho-->
+
+    <script>
+      const items = [
+        {
+          id: 0,
+          nome: "Body Infantil Estampado de Carrinhos Manga Longa Branco",
+          img: "img3/boinf.png",
+          quantidade: 0,
+        },
+        {
+          id: 1,
+          nome: "Camiseta Infantil Estampada Tie Dye Espiral Manga Curta Azul",
+          img: "img3/camesp.png",
+          quantidade: 0,
+        },
+        {
+          id: 2,
+          nome: "Camiseta Infantil NASA Manga Curta Azul",
+          img: "img3/camnasa.png",
+          quantidade: 0,
+        },
+      ];
+
+      inicializarLoja = () => {
+        var containerProdutos = document.getElementById('produtos');
+        items.map((val) => {
+          containerProdutos.innerHTML +=
+            `
+
+<div class="produto-single">
+    <img src="` +
+            val.img +
+            `"/>
+    <p>` +
+            val.nome +
+            `</p>
+    <a key="` +
+            val.id +
+            `" href="#">Adicionar ao carrinho!</a>
+</div>
+
+`;
+        });
+      };
+      inicializarLoja();
+
+      
+
+      atualizarCarrinho = () => {
+        var containerCarrinho = document.getElementById('carrinho');
+        containerCarrinho.innerHTML = "";
+        items.map((val) => {
+            if(val.quantidade > 0){
+          containerCarrinho.innerHTML +=
+            `
+            <div class="info-single-checkout">
+<p style="float:left; color:white">Produto: `+val.nome+`</p>
+<p style="float:right; color:white">Quantidade: `+val.quantidade+`</p>
+<div style="clear:both"></div>
+</div>
+
+`;
+            }
+        });
+      };
+
+      var links = document.getElementsByTagName("a");
+
+      for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener("click", function () {
+          let key = this.getAttribute("key");
+          items[key].quantidade++;
+          atualizarCarrinho();
+          return false;
+        });
+      }
+    </script>
+    <!--<div>
+      <ul>
+        <li><a class="active" href="home.html">Home</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="faleConosco.html">Fale Conosco</a></li>
+        <li><a href="cadastrar.html">Cadastrar Produto</a></li>
+        <li><a href="empresa.html">A Empresa</li>
+      </ul>
+    </div>-->
+  </body>
+</html>

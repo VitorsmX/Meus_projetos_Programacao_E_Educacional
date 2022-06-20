@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Produtos da nossa loja</title>
+</head>
+
+<body>
+	<table border="1">
+		<caption>lista de preços</caption>
+		<thead>
+			<tr>
+				<th>Produto</th>
+				<th>Fabricante</th>
+				<th>Valor</th>
+				<th>Imagem</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Camera Tek Pix</td>
+				<td>TecnoMania</td>
+				<td>R$ 3.516,00</td>
+				<td><a href="file:///C:/Users/Nilson/Documents/VITOR/EST%C3%81CIO-EU/1%C2%BA%20semestre%2024-08-20/desenvolvimento%20web/aula%203/pagina2.html"><img src="pix.jpg" width="100"></a></td>
+			</tr>
+			<tr>
+				<td>Gravata neon</td>
+				<td>Wazypon</td>
+				<td>R$ 35,00</td>
+				<td><a href="file:///C:/Users/Nilson/Documents/VITOR/EST%C3%81CIO-EU/1%C2%BA%20semestre%2024-08-20/desenvolvimento%20web/aula%203/pagina3.html"><img src="gravataled.jpg" width="100"></a></td>
+			</tr>
+			<tr>
+				<td>Camisa com peitoral</td>
+				<td>LG Fabrica de camisetas</td>
+				<td>R$ 56,00</td>
+				<td><a href="file:///C:/Users/Nilson/Documents/VITOR/EST%C3%81CIO-EU/1%C2%BA%20semestre%2024-08-20/desenvolvimento%20web/aula%203/pagina%204.html"><img src="peitoralc.jpg" width="100"></a></td>
+			</tr>
+			<tr>
+				<td>Dispenser em forma de Nariz</td>
+				<td>MG2005</td>
+				<td>R$ 47,90</td>
+				<td><a href="file:///C:/Users/Nilson/Documents/VITOR/EST%C3%81CIO-EU/1%C2%BA%20semestre%2024-08-20/desenvolvimento%20web/aula%203/pagina5.html"><img src="nariz.jpg" width="100"></a></td>
+			</tr>
+			<tr>
+				<td>Cofrinho Cofrinho</td>
+				<td>Big Mouth</td>
+				<td>R$ 127,00</td>
+				<td><a href="file:///C:/Users/Nilson/Documents/VITOR/EST%C3%81CIO-EU/1%C2%BA%20semestre%2024-08-20/desenvolvimento%20web/aula%203/pagina6.html"><img src="cofrinho.jpg" width="100"></a></td>
+			</tr>
+		</tbody>
+    </table>
+
+
+
+
+</body>
+</html>

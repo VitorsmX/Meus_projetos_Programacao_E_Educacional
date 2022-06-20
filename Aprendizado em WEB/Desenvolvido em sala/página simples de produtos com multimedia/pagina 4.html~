@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Camiseta com peitoral</title>
+</head>
+
+<!-- CORPO DA PÁGINA -->
+
+<body>
+
+<br>
+
+<h1>Camiseta com peitoral</h1>
+
+<!-- IMAGEM -->
+
+<img src="peitoralc.jpg" alt="camisa com peitoral" width=600>
+
+<br><br>
+
+<!-- VÍDEO -->
+
+<h2>Este produto não possui avaliação</h2>
+<p>aprenda a fazer suas próprias camisetas com musculos falsos!</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N725cBUQJmI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+<br><br>
+
+<!-- RODAPÉ -->
+
+<footer>
+
+<nav>
+<a href="file:///C:/Users/Nilson/Documents/VITOR/EST%C3%81CIO-EU/1%C2%BA%20semestre%2024-08-20/desenvolvimento%20web/aula%203/tabela.html">Voltar</a>
+</nav>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastrar Produto</title>
+	<link rel="stylesheet" type="text/css" href="cadastro.css">
+</head>
+<body>
+<div class="cadastro">
+	<h1>Cadastrar Produtos</h1>
+	<form action="cadastro.php" method="post">
+		<p>Nome da Estampas
+		<input type="text" name="nome" id="nome"><br><br>
+		<p>Cores Disponível</p>
+		<input type="text" name="cor" id="cor"><br><br>
+		<p>Categoria</p>
+			<select name="categoria" id="categoria">
+				<option value="">selecione</option>
+				<option value="M">Masculino</option>
+				<option value="F">Feminino</option>
+				<option value="I">Infantil</option>
+			</select><br><br>
+		<p>Valor</p>
+		<input type="text" name="valor" id="valor"><br><br>
+		<input type="submit" value="Cadastrar Produto">
+	</form>
+
+</div>
+<div>
+	<ul>
+		<li><a href ="home.html"> Home</a></li>
+		<li><a href="produtos.html">Produtos</a></li>
+		<li><a href="faleConosco.html">Fale Conosco</a></li>
+		<li><a href="empresa.html">Sobre a Empresa</a></li>
+		<li><a class="active" href="cadastrar.html">Cadastrar Produtos</a></li>
+		<li><a href="pcadastrados.php">Produto Cadastrados</a></li>
+	</ul>
+</div>
+</body>
+</html>

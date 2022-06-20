@@ -1,0 +1,43 @@
+1 - Introdução:
+Este documento tem a finalidade de delimitar o escopo de um projeto de desenvolvimento de um software de Ordens de Serviço para a empresa InfoTemp Tecnologia.
+A empresa InfoTemp, localizada na R. Cmte. Francisco de Assis
+Saudade I, Castanhal - PA, que atua na área de Tecnologia da informação, realiza diversos serviços, sendo alguns: manutenção de equipamentos eletrônicos relacionados a computadores, comercialização de equipamentos de informática no geral, elaboração, implementação e gerência de rede de computadores, certificado digital, consultoria em informática, desenvolvimento e hospedagem de sites.
+A empresa é gerenciada pelo sócio Rafael Temponi, que é responsável pela administração da empresa e pelo setor de compras e vendas e pelo sócio Gabriel Temponi que é responsável pelo setor de manutenção, há também mais 2 funcionários em atividade. Juntos eles trabalham há cerca de 5 anos, possuindo cerca de 50 clientes espalhados por vários pontos do estado, atendendo a pequenas, médias e empresas de grande porte.
+A demanda de implementar um software na empresa surgiu do fato de eles já possuirem um sistema de vendas para controlar vendas, estoque e emitir nota fiscal eletrônica.No entanto, no setor de manutenção, não há um sistema informatizado que supra suas demandas, fazendo com que os funcionarios usem papeis para gerenciar as Ordens de Serviço, gerando acumulo de material e desorganização dos processos de trabalho neste setor.
+
+2 - Escopo do projeto
+Este projeto tem como objetivo desenvolver um software hospedado na web para controle do processo da área de manutenção para a empresa InfoTemp Tecnologia.
+Explicando resumidamente, o cliente leva o equipamento para manutenção, o funcionário encarregado cria a ordem de serviço no sistema, estando a OS registrada, uma impressora térmica imprime um resumo da ordem de serviço, que recebe a assinatura física do técnico responsável e do cliente, uma cópia do resumo assinado é feita através de uma copiadora padrão e é entregue ao cliente, a outra permanece na empresa para controle, as ordens de serviço vão possuir status, que podem ser, não iniciada, aguardando, em andamento e concluída, a serem exibidas tanto na área do cliente, quanto editáveis na área do administrador. A área do administrador pode ser acessada pelo website, que os leva para um painel com as ordens de serviço que podem ser editadas por quem tiver a permissão adequada. Na área do administrador serão fornecidos relatórios de produtividade por técnico e relatórios de ordem de serviço por período e por tipo de problema. O sistema vai possuir um cadastro de clientes, cadastro de itens que acompanham os equipamentos e de funcionários com controle de acesso e direitos de uso.
+
+• REQUISITOS FUNCIONAIS:
+ *[RF001] O sistema deve apresentar no site um login e cadastro do usuário
+ *[RF002] Cada O.S deve ter o seu ID único e sequencial
+ *[RF003] Técnicos e clientes devem ter um ID único e sequencial
+ *[RF004] O sistema deve permitir o cadastro de novos clientes, funcionários e administrador pelo site.
+ *[RF005] A OS será exibida com os detalhes baseados na Figura 1
+*[RF006] O sistema deve possuir um cadastro de clientes e funcionários
+*[RF007] O sistema deve possuir um cadastro de itens que acompanham os aparelhos
+*[RF008] O sistema deve apresentar uma área onde o cliente pode acompanhar as OS
+*[RF009] O sistema deve ter funcionalidade de busca rápida por código de OS
+*[RF010] O sistema deve fornecer relatório de produtividade por técnico e relatório de ordem de serviço por período e por tipo de problema.
+*[RF011] Na Dashboard da área do ADM, deve possuir uma listagem com ordens de serviço não finalizadas
+*[RF012] O sistema deve possuir um cadastro de funcionários com direito de acesso para que apenas o usuário com a permissão adequada possa editar a ordem de serviço
+*[RF013] O sistema deve permitir a criação e o acompanhamento de ordens de serviço
+*[RF014] O sistema não permitirá que o cliente altere a OS
+*[RF015] O sistema deve possuir um status de ordens de serviço (não iniciada, aguardando, em andamento e concluída), a ser exibidas tanto na área do cliente quando na do ADM
+*[RF016] Após o registro da ordem de serviço, o sistema deve imprimir um resumo da OS para ser assinada fisicamente pelo cliente e técnico responsável, uma cópia dessa OS assinada será dada ao cliente
+
+
+• REQUISITOS NÃO FUNCIONAIS:
+- O Sistema deve estar hospedado na WEB como um subdomínio do site principal da empresa
+- O sistema deve apresentar um design simples e apenas com as informações necessárias (vide Heuristicas de Nielsen), seguindo o padrão de estilo do próprio site da empresa
+- Deve imprimir em uma impressora térmica ethernet
+- utilizar banco de dados MySQL ou MariaDB
+- O sistema pode ser desenvolvido com as linguagens de programação: PHP, Javascript, HTML, CSS
+- O sistema pode ser desenvolvido usando os frameworks: Laravel, React, Bootstrap e Pure
+- O sistema deve poder ser executado no navegador tanto em desktops, quanto em dispositivos mobile 
+
+
+
+
+

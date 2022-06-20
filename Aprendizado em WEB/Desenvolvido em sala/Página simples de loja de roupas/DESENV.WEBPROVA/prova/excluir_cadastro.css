@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	background-color: black;
+	margin: 0px;
+}
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+	overflow: hidden;
+	background-color: #333;
+	border: solid #333;
+}
+li {
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none; 
+}
+li a:hover:not(.active){
+	background-color: #111;
+	/*color: #6D6D6D;
+    border-bottom:3px solid white;*/
+}
+.active{
+	background-color: #4c3282; 
+}
+ul{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+img{
+	width: 120px;
+	padding: 0px 60px;
+}
+.cadastro{
+	width: 600px;
+	height: 300px;
+	margin: 50px 0px ;
+	border: solid #4c3282;
+	border-radius: 50px 50px 50px 50px;
+	color: #fff;
+	background-color: rgba(0,0,5,0,8);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 68px 28px;
+}
+.usuario{
+	border-radius: 50%;
+	position: absolute;
+	top: -50%;
+	left: 112px;
+
+}
+h1{
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 20px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px;
+}
+.cadastro p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.cadastro input{
+	width: 100%;
+	margin-bottom: 21px;
+}
+.cadastro input[type="submit"],input[type="button"]{
+	border: none;
+	outline: none;
+	height: 35px;
+	color: #000;
+	background: #fff;
+	border-radius: 20px;
+	transition: 0.2s;
+}
+.cadastro input[type="button"]:hover {
+	cursor: pointer;
+	background: #ff4d4d;
+	transition: 0.2s;
+}
+.cadastro input[type="submit"]:hover {
+	cursor: pointer;
+	background: #ff4d4d;
+	transition: 0.2s;
+
+}
+select{
+	padding: 10px 83px; 
+	margin: 0px 0px;
+}
+option{
+	background-color: black;
+	color: white;
+	
+}

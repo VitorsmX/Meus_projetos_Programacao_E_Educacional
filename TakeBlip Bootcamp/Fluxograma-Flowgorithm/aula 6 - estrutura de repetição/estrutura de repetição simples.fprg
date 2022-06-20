@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Nilson"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-19 05:00:05 "/>
+        <attribute name="created" value="Tmlsc29uO1ZJVE9SQ09NUFVURVI7MjAyMi0wMi0xOTsiMDM6NTU6MDggIjsyODQ4"/>
+        <attribute name="edited" value="Tmlsc29uO1ZJVE9SQ09NUFVURVI7MjAyMi0wMi0xOTsiMDU6MDA6MDUgIjs2OzI5NTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, multiplicador, resultado, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="9"/>
+            <assign variable="resultado" expression="numero"/>
+            <assign variable="multiplicador" expression="1"/>
+            <assign variable="limite" expression="90"/>
+            <while expression="resultado&lt;=limite">
+                <output expression="&quot;A tabuada do nove resulta atualmente em: &quot;&amp;numero&amp;&quot; * &quot;&amp;multiplicador&amp;&quot; = &quot;&amp;resultado" newline="True"/>
+                <assign variable="multiplicador" expression="multiplicador+1"/>
+                <assign variable="resultado" expression="numero*multiplicador"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
