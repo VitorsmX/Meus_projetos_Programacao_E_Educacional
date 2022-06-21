@@ -1,0 +1,47 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/Nilson/Documents/NetBeansProjects/micFactoryMethod/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Nilson/Documents/NetBeansProjects/micFactoryMethod/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'micFactoryMethod 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/Nilson/Documents/NetBeansProjects/micFactoryMethod/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'micFactoryMethod 1.0-SNAPSHOT API'
+aulaFactoryMethod
+'C:/Users/Nilson/Documents/NetBeansProjects/micFactoryMethod/src/main/java/aulaFactoryMethod/FactoryMicrofone.java'
+'C:/Users/Nilson/Documents/NetBeansProjects/micFactoryMethod/src/main/java/aulaFactoryMethod/MicComum.java'
+'C:/Users/Nilson/Documents/NetBeansProjects/micFactoryMethod/src/main/java/aulaFactoryMethod/MicFactoryApp.java'
+'C:/Users/Nilson/Documents/NetBeansProjects/micFactoryMethod/src/main/java/aulaFactoryMethod/MicHeadset.java'
+'C:/Users/Nilson/Documents/NetBeansProjects/micFactoryMethod/src/main/java/aulaFactoryMethod/MicMediano.java'
+'C:/Users/Nilson/Documents/NetBeansProjects/micFactoryMethod/src/main/java/aulaFactoryMethod/microfone.java'
+'C:/Users/Nilson/Documents/NetBeansProjects/micFactoryMethod/src/main/java/aulaFactoryMethod/SpeechMike.java'
+C:\Users\Nilson\Documents\NetBeansProjects\micFactoryMethod\src\main\java = 1648080533974
+C:\Users\Nilson\Documents\NetBeansProjects\micFactoryMethod\target\site\apidocs\allclasses-frame.html = 1649123804140
+C:\Users\Nilson\Documents\NetBeansProjects\micFactoryMethod\target\site\apidocs\allclasses-noframe.html = 1649123804155
+C:\Users\Nilson\Documents\NetBeansProjects\micFactoryMethod\target\site\apidocs\constant-values.html = 1649123803968
+C:\Users\Nilson\Documents\NetBeansProjects\micFactoryMethod\target\site\apidocs\deprecated-list.html = 1649123804140
+C:\Users\Nilson\Documents\NetBeansProjects\micFactoryMethod\target\site\apidocs\help-doc.html = 1649123804155
+C:\Users\Nilson\Documents\NetBeansProjects\micFactoryMethod\target\site\apidocs\index-all.html = 1649123804140
+C:\Users\Nilson\Documents\NetBeansProjects\micFactoryMethod\target\site\apidocs\index.html = 1649123804155
+C:\Users\Nilson\Documents\NetBeansProjects\micFactoryMethod\target\site\apidocs\overview-tree.html = 1649123804124
+C:\Users\Nilson\Documents\NetBeansProjects\micFactoryMethod\target\site\apidocs\package-list = 1649123803937
+C:\Users\Nilson\Documents\NetBeansProjects\micFactoryMethod\target\site\apidocs\script.js = 1649123804171
+C:\Users\Nilson\Documents\NetBeansProjects\micFactoryMethod\target\site\apidocs\stylesheet.css = 1649123804155
