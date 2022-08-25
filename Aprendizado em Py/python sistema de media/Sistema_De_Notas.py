@@ -1,9 +1,9 @@
 #usa biblioteca de estatisticas do python para a média
 from statistics import mean
 
-#função que calcula a média da nota pela biblioteca apartir da lista nova criada com dados Float
-def calculaNota(listaDadosFloat):
-    calculaMedia = mean(listaDadosFloat)
+#função que calcula a média da nota pela biblioteca
+def calculaNota(Dados):
+    calculaMedia = mean(Dados)
     return calculaMedia
 
 #função que limita os caracteres da variavel aluno e das variáveis de notas e emite um erro se for maior que o máximo permitido
@@ -26,29 +26,24 @@ while limitarCaracteresAluno(Aluno) == True:
     Aluno = input('Digite seu nome: ')
     pass
 
-notaAV1 = input('Digite sua nota da primeira avaliação: ')
+#recebe dados das notas e substitui se o usuario digitar virgula
+notaAV1 = float(input('Digite sua nota da primeira avaliação: ').replace(',','.'))
 
-notaAV2 = input('Digite sua nota da segunda avaliação: ')
+notaAV2 = float(input('Digite sua nota da segunda avaliação: ').replace(',','.'))
 
-notaAV3 = input('Digite sua nota da terceira avaliação: ')
+notaAV3 = float(input('Digite sua nota da terceira avaliação: ').replace(',','.'))
 
-notaAV4 = input('Digite sua nota da quarta avaliação: ')
+notaAV4 = float(input('Digite sua nota da quarta avaliação: ').replace(',','.'))
 
 #Agrupa as notas na variavel dados para calcular a média apartir dela
 Dados = [notaAV1, notaAV2, notaAV3, notaAV4]
 
-#coloca virgula nas strings da lista Dados que foi solicitada inserção, coloca os dados em uma nova lista que vai ter os valores Float(Decimal)
-Dados[0:5] = notaAV1.replace(',','.'), notaAV2.replace(',','.'), notaAV3.replace(',','.'), notaAV4.replace(',','.')
-listaDadosFloat = []
-for DadosFloat in Dados:
-    listaDadosFloat.append(float(DadosFloat))
-
 #define as variáveis para calcular a média
-mediaNotas = round(calculaNota(listaDadosFloat),2)
+mediaNotas = round(calculaNota(Dados),2)
 mediaMinima = 6
-notaFinalTotal = round(sum(listaDadosFloat),2)
-notaFinalSemestre1 = round(sum(listaDadosFloat[0:2]),2)
-notaFinalSemestre2 = round(sum(listaDadosFloat[2:4]),2)
+notaFinalTotal = round(sum(Dados),2)
+notaFinalSemestre1 = round(sum(Dados[0:2]),2)
+notaFinalSemestre2 = round(sum(Dados[2:4]),2)
 
 #checa se a média é maior ou menor que a nota minima e imprime os resultados
 if(mediaNotas >= mediaMinima):
