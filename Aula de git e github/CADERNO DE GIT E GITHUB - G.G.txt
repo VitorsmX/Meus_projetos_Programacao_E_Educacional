@@ -1,0 +1,485 @@
+Nome: Vitor Sousa Mesquita
+Professor: Gustavo Guanabara (eu sou seu professor kkk)
+git e github - Curso em Vídeo
+
+AULA 1 - O que é Git? O que é versionamento?
+
+-> o programador usa várias versões de uma mesma coisa
+
+Git é diferente de GitHub
+-> para que serve o Git?
+Git: software de controle de versão
+GitHub: Plataforma de rede social para programadores
+
+detalhes:
+Git => Versionamento de código
+
+ex: index.html -> Pasta: site-cliente -> compacta a pasta (site-cliente.zip)
+	quando altera o código faz site-clienteV2.zip, e cria várias versões em seguida
+	site-cliente-mudou-tudo.zip -> se o cliente quiser mudar tudo
+		depois de estar com um monte de zips no hd -> e se queimar/ perder o hd?
+		solução: guardar no google drive
+		o problema é quantidade embaralhada numa pasta do google drive
+
+Software de controle de versão: guardam as versões do software, pode voltar no tempo para ver qualquer ponto do projeto, consultar arquivos, organizar
+exemplo: Git
+
+- commit: um pacote de alterações feitas no repositório , monitorar e mandar pro repositório, versão estável pronta para mandar pro repositório local
+
+história
+-> versionamento
+- ano: 1972
+- você tinha que criar uma pasta com o programa -> faz um commit pro repositório central
+- várias pessoas podem commitar
+- você tinha que ter conexão constante com o servidor pra ter monitoramento de código
+- o servidor que controla o código e verifica qual a versão anterior ou posterior
+- centralizado/ linear
+- primeiro: CA software change manager (CCC)
+- segundo: source code control central
+- terceiro: panvalet
+- quarto: concurrent version system (!)
+- Apache subversion (!)
+- ClearCase
+- Visual SourceSafe
+
+
+Atual:
+- distribuido
+- repositório local
+- cada repositório local manda pra um repositório remoto (nuvem)
+- commit ->  manda pro repositório local
+- push -> manda pro repositório remoto
+
+software de ver. distribuidos:
+- mercurial
+- bazaar
+- code co-op
+- GNU arch
+- monotone
+- fossil
+- bitKeeper (!)
+- Git (versiona na sua máquina) (!)
+
+-> vantagens do versionamento
+* Controle de histórico
+* trabalho em equipe
+* ramificação do projeto -> ramificar em ramos do projeto (design, front-end)
+* Segurança -> você faz o que sua ramificação pede
+* organização -> pode voltar em estado anterior, recuperar arquivos
+
+AULA 2 - 
+
+GITHUB => O que é GitHub? Pra que ele serve?
+
+-> VCS distribuido: devs -> projetos -> repositório local(commit) -> repositório remoto(push)
+
+-> repositório local: salva na máquina somando o que foi alterado no arquivo original (git)
+-> repositório remoto: GitHub, GitLab, Bitbucket, PHABRICATOR, Gogs, Kallithea
+* GitHub:
+	- repositório online ilimitado
+	- rede social para programadores
+	- colaborar no código dos outros
+	- testar código dos outros
+	- issues (necessidades e problemas do código)
+	- empregadores podem te achar para vagas
+	- hospedagem simples e complexa
+	- hospedagem de código fonte (qualquer linguagem)
+	- github pages integrado
+	- Forks (continuar o projeto por conta própria apartir do de outra pessoa)
+
+-> repositório do prof: GitHub.com/gustavoguanabara
+	- conteudos educativos e códigos
+
+-> criar o meu GitHub!!!
+
+-> tarefas:
+	- inserir a maior quantidade de informações possivel na Bio usando APIs
+	- 
+	- 	
+	- 
+
+AULA 3 - A Evolução do Git e GitHub – Curso de Git e GitHub
+
+
+->1985 
+	* CVS
+	- primeiro software de versionamento
+	- centralizado, precisa de um servidor único
+	- Open Source
+	- Problemas: consistência (limitado) e velocidade (3 minutos para um commit)
+
+->2000
+	* SVN
+	- Centralizado
+	- Open source
+	- vem resolver problemas do CVS
+	- Ativo até hoje
+	- Parecido com CVS
+	- mais estável
+	- menor tempo de commits
+	
+	* BitKeeper
+	- não é código livre, é proprietário
+	- Distribuido
+	- Versão comunidade
+	- Linux como maior cliente
+	- Diferente do CVS
+	- Desentendimentos
+
+->2004
+	* SourcePuller ferramenta cliente do BitKeeper
+	- Ferramenta que era um crack do BitKeeper que liberava recursos destravados
+	- Engenharia reversa
+
+->2005
+	* BitKeeper novo
+	- Nova licença
+	- bloqueava o acesso a metadados
+	- dificultava ver o diff na versão comunitária (não pode ver as versões anteriores na versão gratuita)
+	
+	* Git
+	- criado por Linus Torvalds, criador do Linux
+	- criado aprtir de uma rivalidade com o BitKeeper
+	- Distribuido
+	- Open Source
+	- Feito em 10 dias
+	- Em 4 dias já tinha Demo
+	- Focado em performance
+	- continua até hoje
+
+-> Git: 
+	- Global information tracker
+	- comando pequeno
+	- não é usado em comandos unix
+	- fácil de falar
+
+-> 2008
+	* GitHub
+		<criadores>
+		- Tom Preston-Werner
+		- P. J Hyett
+		- Chris Wanstrath
+		- Scott Chacon
+		</criadores>
+	- Proprietário com mentalidade Open Source
+	- Hospedagem de código
+	- Baseado em Git
+	- Hospedagem Remota
+	- Cresceu muito rápido
+	- maior ataque de DDos da história (maquinas zumbis atacam)
+-> 2018
+	* Microsoft adquire GitHub (7,5 Bi)
+	- operação independente
+	- GitHub compra o NPM (2020)
+	- mantém o software livre
+
+tarefas:
+- instalar o git
+
+AULA 4 - Instalações e configurações importantes – Curso de Git e GitHub
+
+-> baixar: git e github desktop, chrome, microsoft edge e visual studio code
+
+
+AULA 5 - Criando o primeiro Repositório – Curso de Git e GitHub
+
+-> GITHUB DESKTOP -> repositório remoto
+-> GIT -> repositório local
+
+github desktop
+-> você altera no vscode
+-> o GitHub desktop percebe isso e pede um COMMIT (Ctrl + Enter)
+-> em seguida você faz um PUSH (Ctrl + p) para o github (site)
+
+github site
+-> você altera no site e da um COMMIT
+-> no GitHub desk você clica para verificar a origem (repositório remoto)
+-> você faz um pull para trazer a alteração do site
+-> é alterado automaticamente na IDE
+
+AULA 6 - Clonando um Repositório – Curso de Git e GitHub
+
+-> clonagem
+	- serve para copiar um repositório do github web para o seu versionador desktop, baixando e interpretando todos os seus arquivos
+
+AULA 7 - Versionando seus projetos antigos – Curso de Git e GitHub
+
+-> atividades realizadas: versionei meus projetos antigos da faculdade e estudos extras
+
+-> Clone: você cria uma cópia de algum projeto do github no seu pc, assim você pode manusear o projeto bem como versiona-lo
+
+-> FORK: você clona o repositório no gitHub
+
+AULA 8 - Você sabe usar Issues? – Curso de Git e GitHub
+
+-> issue: ao descobrir o problema, você pede ajuda para resolver
+
+-> pull-request: encontrei o problema, analisei o código, aprendi como resolver, mechi no código (adiciona uma branch) e submeti para o programador do projeto original ver se resolveu
+
+-> processo para pull-request: cria um fork >> cria um branch >> cria um pull-request
+
+-> para fazer uma ISSUE:
+-3 você está programando no VSCODE em python, encontrou um problema na execução do código
+-2 você entra no github, procura o perfil da microsoft, procura o repositório do VSCODE, vai em ISSUES (problemas) para ver se outras pessoas tem o mesmo problema e conseguiu resolver
+
+-> você primeiro verifica se o problema já foi resolvido -> senão você cria a ISSUE
+
+-> ISSUES = Você tem algum problema que ainda não foi resolvido?
+
+-> objetivo: imagine se você faz um pull-request para uma empresa grande e o desenvolvedor aceita? então, use as issues e pulls para ser util e acrescentar na sua carreira e curriculo, isso também é trabalhar com programação!
+
+AULA 9 - Guia da Linguagem Markdown – Curso de Git e GitHub
+
+-> markdown:
+- uma linguagem de marcação semelhante ao html mas de fácil legibilidade e mais simples, dica, você usa markdown no Whatsapp todos os dias
+
+onde usa:
+- README.MD
+- QUALQUER ARQUIVO .MD NO GITHUB
+- ISSUES
+- PULL-REQUESTS
+- EM OUTRAS TECNOLOGIAS
+
+EXEMPLO DE SINTAXE:
+
+TÍTULO 1:
+# TITULO LEVEL 1
+## TITULO LEVEL 2
+### TITULO LEVEL 3
+#### TITULO LEVEL 4
+##### TITULO LEVEL 5
+###### TITULO LEVEL 6
+
+LINHA HORIZONTAL:
+
+***
+
+ITALICO:
+_CursoemVideo_
+*CursoemVideo* 
+
+NEGRITO:
+__CursoemVideo__ 
+**CursoemVideo**
+
+RISCADO:
+~~CursoemVideo~~ 
+
+MISTURADO:
+_**CursoemVideo**_ 
+
+LISTA ENUMERADA:
+1. Brasil 
+1. Alemanha 
+5. França 
+0. Bélgica 
+DICA: Para criar uma lista numerada, comece a linha com um número qualquer, seguido de 
+um ponto. O primeiro número da lista vai indicar onde ela começa, os itens seguintes, 
+se estiverem em linhas consecutivas, vão continuar a sequência. 
+
+LISTAS COM MARCADORES:
+* Opção 1 
+* Opção 2 
+   * Opção 3 
+* Opção 4 
+DICA: Basta usar um asterisco seguido de um espaço ou um traço seguido de TRÊS ESPAÇOS no 
+início de uma linha para que ele seja parte de uma lista demarcada.
+
+LISTA DE TAREFAS;
+- [ ] pão 
+- [x] leite       \DESSA FORMA VOCÊ ESTÁ MARCANDO O ITEM
+- [ ] manteiga
+
+IMAGENS:
+![PÃO COM OVO](https://s.cornershopapp.com/product-images/3204783.jpg?versionId=PVJmDzGflJ5EvbB9QhWbl2oi8DatXAYS)
+
+LINKS:
+[VEJA O PÃO COM OVO AO VIVO](https://s.cornershopapp.com/product-images/3204783.jpg?versionId=PVJmDzGflJ5EvbB9QhWbl2oi8DatXAYS)
+
+COMANDO ISOLADO:
+Gostaria de maiores informações sobre o 
+comando `window.document.querySelector()` 
+da linguagem JavaScript. 
+
+TRECHO DE CÓDIGO:
+Olha só o programa que criei em **Python**: 
+``` 
+num = int(input('Digite um número: ')) 
+if num % 2 == 0: 
+ print(f'O valor {num} é PAR') 
+else: 
+ print(f'O valor {num} é ÍMPAR') 
+print('Fim do Programa') 
+```
+
+CITAÇÃO:
+Como **Steve Jobs** disse uma vez: 
+> Decidir o que não fazer é tão 
+> importante quanto decidir 
+> o que fazer
+
+MENÇÕES E USUÁRIOS:
+Durante o curso, usamos o perfil @gafanhotos para exercitar as ações em 
+Git e GitHub. 
+DICA: Se você precisar mencionar algum usuário, pode indicar o nome do perfil logo após o 
+símbolo de @.
+
+MENÇÕES A ISSUES:
+Analisando a Issue #1957 , vamos rever o que foi indicado pelo usuário.
+
+ESCAPANDO SIMBOLOS:
+Podemos criar títulos usando \## antes do texto 
+Podemos criar citações usando \> antes do conteúdo 
+Podemos adicionar imagens usando \!\[descrição]\(endereço)
+
+EMOJIS:
+Boas iniciativas merecem aplausos :clap: 
+Fatos importantes merecem atenção :eyes: 
+Momentos difíceis requerem força :muscle: 
+Mensagens bem escritas merecem um like :+1: 
+DICA: Para uma lista completa e atualizada de 
+todos os emojis que podem ser usados, acesse o link a seguir. 
+Para uma lista completa e atualizada de 
+todos os emojis que podem ser usados, acesse o link a seguir. 
+[https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+TABELAS:
+Ano | Curso | Professor | Aulas 
+:---: | ---: | :--- | :---: 
+2013 | HTML+CSS+JS | Gustavo Guanabara | 36 
+2018 | Hardware | Alfredo Jr | 28 
+2019 | Linux | Ricardo Pinheiro | 15
+
+
+
+AULA 10 - Git Branches de forma fácil e com exemplo – Curso de Git e GitHub
+
+-> BRANCH = GRAFOS
+
+-> branch: criar uma árvore com várias ramificações
+- ramo principal: a versão master ou versão principal, a base, o tronco, a versão final do seu software
+- ramificações: branchs novas podem ser versões atualizadas sendo desenvolvidas para depois ser a branch master (principal) OU podem ser uma ramificação nova criada devido a algum defeito no software principal sendo corrigido
+
+-> master:
+- obrigatório
+- alterações são comitadas no como sub-versão do master
+- pode jogar do master (local) para o origin (remoto)
+- commit salva uma versão nova criando uma subversão, o que não é uma ramificação, mas um aumento do tronco principal
+- push para jogar pro repositório remoto
+
+origin: 
+- master só que remoto
+- cresce a cada push
+- não cresce de forma igual ao master, só quando se faz push
+- evitar commitar tudo na branch master (ramificação principal)
+
+BOAS PRÁTICAS ESSENCIAIS:
+- Qualquer mudança que você fizer, *não faça a mudança na branch master, mas crie uma ramificação, assim que a versão do software estiver finalizada, use a opção MERGE: pega a mudança feita na ramificação alternativa na ramificação principal
+- podemos criar uma branch nova na ramificação principal em um dado momento criando uma ramificação nova para criar novas funcionalidades mesmo depois de uma versão posterior ter sido feita
+- podemos deletar branchs mal-sucedidas e continuar com a versão estável
+- pode fazer MERGEs dessas versões criadas paralelamente, se não der certo a integração ao ramo principal, ele avisa
+
+
+AULA 11 - Hospedagem Grátis no GitHub Pages – Curso de Git e GitHub
+
+-> O GITHUB PODE SER USADO PARA HOSPEDAR SEUS SITES, VEJA COMO.
+
+-> Funciona com sites simples sem php e database
+
+-> hostnet é uma boa opção
+
+
+
+------------------------
+
+PLANO AULA
+
+* ANTES DA AULA
+
+-> PREPARAR SLIDES
+-> PREPARAR CONTEUDO
+-> CRIAR CONTA FAKE
+
+
+* NA AULA
+
+Bloco de notas e explicação:
+-> FALAR O QUE É VERSIONAMENTO DE CÓDIGO E BENEFICIOS
+-> FALAR PRA QUE SERVE DO GITHUB E GIT
+
+Prática
+-> PEDIR E MOSTRAR COMO CRIAR CONTA NO GITHUB
+-> PEDIR E MOSTRAR COMO BAIXAR GITHUB DESKTOP E TALVEZ VSCODE
+
+Slides passo a passo:
+-> MARKDOWN
+-> CRIAR REPOSITÓRIO
+-> COMMIT E PUSH E INTEGRAÇÃO COM VSCODE
+-> ISSUES
+-> PULL-REQUEST
+-> CÓDIGO DE AUTENTICAÇÃO
+-> PROJETO FINAL
+
+Slides GG:
+-> SEGURANÇA NO GITHUB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,121 @@
+-> markdown:
+- uma linguagem de marcação semelhante ao html mas de fácil legibilidade e mais simples, dica, você usa markdown no Whatsapp todos os dias
+
+onde usa:
+- README.MD
+- QUALQUER ARQUIVO .MD NO GITHUB
+- ISSUES
+- PULL-REQUESTS
+- EM OUTRAS TECNOLOGIAS
+
+EXEMPLO DE SINTAXE:
+
+TÍTULO 1:
+# TITULO LEVEL 1
+## TITULO LEVEL 2
+### TITULO LEVEL 3
+#### TITULO LEVEL 4
+##### TITULO LEVEL 5
+###### TITULO LEVEL 6
+
+LINHA HORIZONTAL:
+
+***
+
+ITALICO:
+_CursoemVideo_
+*CursoemVideo* 
+
+NEGRITO:
+__CursoemVideo__ 
+**CursoemVideo**
+
+RISCADO:
+~~CursoemVideo~~ 
+
+MISTURADO:
+_**CursoemVideo**_ 
+
+LISTA ENUMERADA:
+1. Brasil 
+1. Alemanha 
+5. França 
+0. Bélgica 
+DICA: Para criar uma lista numerada, comece a linha com um número qualquer, seguido de 
+um ponto. O primeiro número da lista vai indicar onde ela começa, os itens seguintes, 
+se estiverem em linhas consecutivas, vão continuar a sequência. 
+
+LISTAS COM MARCADORES:
+* Opção 1 
+* Opção 2 
+   * Opção 3 
+* Opção 4 
+DICA: Basta usar um asterisco seguido de um espaço ou um traço seguido de TRÊS ESPAÇOS no 
+início de uma linha para que ele seja parte de uma lista demarcada.
+
+LISTA DE TAREFAS;
+- [ ] pão 
+- [x] leite       \DESSA FORMA VOCÊ ESTÁ MARCANDO O ITEM
+- [ ] manteiga
+
+IMAGENS:
+![PÃO COM OVO](https://s.cornershopapp.com/product-images/3204783.jpg?versionId=PVJmDzGflJ5EvbB9QhWbl2oi8DatXAYS)
+
+LINKS:
+[VEJA O PÃO COM OVO AO VIVO](https://s.cornershopapp.com/product-images/3204783.jpg?versionId=PVJmDzGflJ5EvbB9QhWbl2oi8DatXAYS)
+
+COMANDO ISOLADO:
+Gostaria de maiores informações sobre o 
+comando `window.document.querySelector()` 
+da linguagem JavaScript. 
+
+TRECHO DE CÓDIGO:
+Olha só o programa que criei em **Python**: 
+``` 
+num = int(input('Digite um número: ')) 
+if num % 2 == 0: 
+ print(f'O valor {num} é PAR') 
+else: 
+ print(f'O valor {num} é ÍMPAR') 
+print('Fim do Programa') 
+```
+
+CITAÇÃO:
+Como **Steve Jobs** disse uma vez: 
+> Decidir o que não fazer é tão 
+> importante quanto decidir 
+> o que fazer
+
+MENÇÕES E USUÁRIOS:
+Durante o curso, usamos o perfil @gafanhotos para exercitar as ações em 
+Git e GitHub. 
+DICA: Se você precisar mencionar algum usuário, pode indicar o nome do perfil logo após o 
+símbolo de @.
+
+MENÇÕES A ISSUES:
+Analisando a Issue #1957 , vamos rever o que foi indicado pelo usuário.
+
+ESCAPANDO SIMBOLOS:
+Podemos criar títulos usando \## antes do texto 
+Podemos criar citações usando \> antes do conteúdo 
+Podemos adicionar imagens usando \!\[descrição]\(endereço)
+
+EMOJIS:
+Boas iniciativas merecem aplausos :clap: 
+Fatos importantes merecem atenção :eyes: 
+Momentos difíceis requerem força :muscle: 
+Mensagens bem escritas merecem um like :+1: 
+DICA: Para uma lista completa e atualizada de 
+todos os emojis que podem ser usados, acesse o link a seguir. 
+Para uma lista completa e atualizada de 
+todos os emojis que podem ser usados, acesse o link a seguir. 
+[https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+TABELAS:
+Ano | Curso | Professor | Aulas 
+:---: | ---: | :--- | :---: 
+2013 | HTML+CSS+JS | Gustavo Guanabara | 36 
+2018 | Hardware | Alfredo Jr | 28 
+2019 | Linux | Ricardo Pinheiro | 15
+
